@@ -125,8 +125,8 @@ const ChatApp = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <div className="container mx-auto px-4 py-6 max-w-6xl">
+    <div className="h-screen w-screen bg-gradient-to-br from-blue-50 to-indigo-100 items-center justify-center flex">
+      <div className="container max-w-screen">
         {/* Header */}
         <div className="bg-white rounded-t-2xl shadow-lg p-6 border-b border-gray-200">
           <div className="flex items-center justify-between flex-wrap gap-4">
