@@ -150,7 +150,7 @@ const ChatApp = () => {
                 </div>
                 <button
                   onClick={() => setShowClearConfirm(true)}
-                  className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+                  className=" hidden p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
                   title="Clear chat"
                 >
                   <Trash2 className="h-5 w-5" />
